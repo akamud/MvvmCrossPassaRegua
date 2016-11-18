@@ -88,7 +88,7 @@ namespace MvvmCrossPassaRegua.Droid
 			public const int lblResultado = 2131165189;
 			
 			// aapt resource value: 0x7f070003
-			public const int lblValorResultado = 2131165187;
+			public const int lblValorTotal = 2131165187;
 			
 			// aapt resource value: 0x7f070002
 			public const int myButton = 2131165186;
