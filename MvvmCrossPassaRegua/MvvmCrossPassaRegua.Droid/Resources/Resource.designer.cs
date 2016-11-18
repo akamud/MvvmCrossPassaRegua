@@ -26,10 +26,52 @@ namespace MvvmCrossPassaRegua.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxBind = global::MvvmCrossPassaRegua.Droid.Resource.Attribute.MvxBind;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::MvvmCrossPassaRegua.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxGroupItemTemplate = global::MvvmCrossPassaRegua.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxItemTemplate = global::MvvmCrossPassaRegua.Droid.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxLang = global::MvvmCrossPassaRegua.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxSource = global::MvvmCrossPassaRegua.Droid.Resource.Attribute.MvxSource;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxTemplate = global::MvvmCrossPassaRegua.Droid.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Id.MvvmCrossTagId = global::MvvmCrossPassaRegua.Droid.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Binding.Droid.Resource.Id.MvxBindingTagUnique = global::MvvmCrossPassaRegua.Droid.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding = global::MvvmCrossPassaRegua.Droid.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxBind = global::MvvmCrossPassaRegua.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxLang = global::MvvmCrossPassaRegua.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxControl = global::MvvmCrossPassaRegua.Droid.Resource.Styleable.MvxControl;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxControl_MvxTemplate = global::MvvmCrossPassaRegua.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView = global::MvvmCrossPassaRegua.Droid.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::MvvmCrossPassaRegua.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView = global::MvvmCrossPassaRegua.Droid.Resource.Styleable.MvxImageView;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView_MvxSource = global::MvvmCrossPassaRegua.Droid.Resource.Styleable.MvxImageView_MvxSource;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::MvvmCrossPassaRegua.Droid.Resource.Styleable.MvxListView;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::MvvmCrossPassaRegua.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::MvvmCrossPassaRegua.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
 		}
 		
 		public partial class Attribute
 		{
+			
+			// aapt resource value: 0x7f010000
+			public const int MvxBind = 2130771968;
+			
+			// aapt resource value: 0x7f010004
+			public const int MvxDropDownItemTemplate = 2130771972;
+			
+			// aapt resource value: 0x7f010005
+			public const int MvxGroupItemTemplate = 2130771973;
+			
+			// aapt resource value: 0x7f010003
+			public const int MvxItemTemplate = 2130771971;
+			
+			// aapt resource value: 0x7f010001
+			public const int MvxLang = 2130771969;
+			
+			// aapt resource value: 0x7f010006
+			public const int MvxSource = 2130771974;
+			
+			// aapt resource value: 0x7f010002
+			public const int MvxTemplate = 2130771970;
 			
 			static Attribute()
 			{
@@ -44,29 +86,29 @@ namespace MvvmCrossPassaRegua.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f040003
-			public const int accent = 2130968579;
+			// aapt resource value: 0x7f060003
+			public const int accent = 2131099651;
 			
-			// aapt resource value: 0x7f040007
-			public const int divider = 2130968583;
+			// aapt resource value: 0x7f060007
+			public const int divider = 2131099655;
 			
-			// aapt resource value: 0x7f040006
-			public const int icons = 2130968582;
+			// aapt resource value: 0x7f060006
+			public const int icons = 2131099654;
 			
-			// aapt resource value: 0x7f040000
-			public const int primary = 2130968576;
+			// aapt resource value: 0x7f060000
+			public const int primary = 2131099648;
 			
-			// aapt resource value: 0x7f040001
-			public const int primary_dark = 2130968577;
+			// aapt resource value: 0x7f060001
+			public const int primary_dark = 2131099649;
 			
-			// aapt resource value: 0x7f040002
-			public const int primary_light = 2130968578;
+			// aapt resource value: 0x7f060002
+			public const int primary_light = 2131099650;
 			
-			// aapt resource value: 0x7f040004
-			public const int primary_text = 2130968580;
+			// aapt resource value: 0x7f060004
+			public const int primary_text = 2131099652;
 			
-			// aapt resource value: 0x7f040005
-			public const int secondary_text = 2130968581;
+			// aapt resource value: 0x7f060005
+			public const int secondary_text = 2131099653;
 			
 			static Color()
 			{
@@ -78,26 +120,45 @@ namespace MvvmCrossPassaRegua.Droid
 			}
 		}
 		
+		public partial class Drawable
+		{
+			
+			// aapt resource value: 0x7f020000
+			public const int splash = 2130837504;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070004
-			public const int lblPessoas = 2131165188;
+			// aapt resource value: 0x7f050000
+			public const int MvvmCrossTagId = 2131034112;
 			
-			// aapt resource value: 0x7f070005
-			public const int lblResultado = 2131165189;
+			// aapt resource value: 0x7f050001
+			public const int MvxBindingTagUnique = 2131034113;
 			
-			// aapt resource value: 0x7f070003
-			public const int lblValorTotal = 2131165187;
+			// aapt resource value: 0x7f050005
+			public const int lblPessoas = 2131034117;
 			
-			// aapt resource value: 0x7f070002
-			public const int myButton = 2131165186;
+			// aapt resource value: 0x7f050006
+			public const int lblResultado = 2131034118;
 			
-			// aapt resource value: 0x7f070001
-			public const int seekBarPessoas = 2131165185;
+			// aapt resource value: 0x7f050004
+			public const int lblValorTotal = 2131034116;
 			
-			// aapt resource value: 0x7f070000
-			public const int txtValor = 2131165184;
+			// aapt resource value: 0x7f050003
+			public const int seekBarPessoas = 2131034115;
+			
+			// aapt resource value: 0x7f050002
+			public const int txtValor = 2131034114;
 			
 			static Id()
 			{
@@ -112,8 +173,11 @@ namespace MvvmCrossPassaRegua.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			// aapt resource value: 0x7f040000
+			public const int Main = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int SplashScreen = 2130968577;
 			
 			static Layout()
 			{
@@ -128,8 +192,8 @@ namespace MvvmCrossPassaRegua.Droid
 		public partial class Mipmap
 		{
 			
-			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			// aapt resource value: 0x7f030000
+			public const int Icon = 2130903040;
 			
 			static Mipmap()
 			{
@@ -144,11 +208,11 @@ namespace MvvmCrossPassaRegua.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int app_name = 2131034113;
+			// aapt resource value: 0x7f080001
+			public const int app_name = 2131230721;
 			
-			// aapt resource value: 0x7f050000
-			public const int hello = 2131034112;
+			// aapt resource value: 0x7f080000
+			public const int hello = 2131230720;
 			
 			static String()
 			{
@@ -163,8 +227,11 @@ namespace MvvmCrossPassaRegua.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int AppTheme = 2131099648;
+			// aapt resource value: 0x7f070001
+			public const int AppTheme = 2131165185;
+			
+			// aapt resource value: 0x7f070000
+			public const int Theme_Splash = 2131165184;
 			
 			static Style()
 			{
@@ -172,6 +239,57 @@ namespace MvvmCrossPassaRegua.Droid
 			}
 			
 			private Style()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] MvxBinding = new int[] {
+					2130771968,
+					2130771969};
+			
+			// aapt resource value: 0
+			public const int MvxBinding_MvxBind = 0;
+			
+			// aapt resource value: 1
+			public const int MvxBinding_MvxLang = 1;
+			
+			public static int[] MvxControl = new int[] {
+					2130771970};
+			
+			// aapt resource value: 0
+			public const int MvxControl_MvxTemplate = 0;
+			
+			public static int[] MvxExpandableListView = new int[] {
+					2130771973};
+			
+			// aapt resource value: 0
+			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
+			
+			public static int[] MvxImageView = new int[] {
+					2130771974};
+			
+			// aapt resource value: 0
+			public const int MvxImageView_MvxSource = 0;
+			
+			public static int[] MvxListView = new int[] {
+					2130771971,
+					2130771972};
+			
+			// aapt resource value: 1
+			public const int MvxListView_MvxDropDownItemTemplate = 1;
+			
+			// aapt resource value: 0
+			public const int MvxListView_MvxItemTemplate = 0;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}
