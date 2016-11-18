@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace MvvmCrossPassaRegua.Droid
 {
-    [Activity(Label = "MvvmCrossPassaRegua.Droid", MainLauncher = true, Icon = "@mipmap/icon")]
+    [Activity(Label = "MvvmCrossPassaRegua.Droid", MainLauncher = true, Icon = "@mipmap/icon", Theme = "@style/AppTheme")]
     public class MainActivity : Activity
     {
         int count = 1;

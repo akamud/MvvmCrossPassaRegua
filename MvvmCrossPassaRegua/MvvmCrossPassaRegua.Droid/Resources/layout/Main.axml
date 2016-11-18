@@ -1,4 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-	<Button android:id="@+id/myButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hello" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dp">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Valor" />
+  <EditText
+      android:id="@+id/txtValor"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Número de pessoas" />
+  <SeekBar
+      android:id="@+id/seekBarPessoas"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:max="10"
+      android:progress="2"/>
+  <Button
+      android:id="@+id/myButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Calcular" />
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Valor: " />
+    <TextView
+          android:id="@+id/lblValorResultado"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="24dp"
+          android:text="" />
+  </LinearLayout>
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Pessoas: " />
+    <TextView
+          android:id="@+id/lblPessoas"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="24dp"
+          android:text="" />
+  </LinearLayout>
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Total por pessoa: " />
+    <TextView
+          android:id="@+id/lblResultado"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="24dp"
+          android:text="" />
+  </LinearLayout>
 </LinearLayout>
