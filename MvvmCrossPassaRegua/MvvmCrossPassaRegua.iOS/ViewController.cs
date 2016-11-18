@@ -18,8 +18,18 @@ namespace MvvmCrossPassaRegua.iOS
 			// Perform any additional setup after loading the view, typically from a nib.
 			Button.AccessibilityIdentifier = "myButton";
 			Button.TouchUpInside += delegate {
-				var title = string.Format ("{0} clicks!", count++);
-				Button.SetTitle (title, UIControlState.Normal);
+                double valorTotal = 0;
+                double.TryParse(txtValorTotal.Text, out valorTotal);
+
+                int totalPessoas = (int)sliderPessoas.Value;
+
+                var calculadoraSerice = new CalculadoraService();
+
+                var valorIndividual = calculadoraSerice.CalculaIndividual(valorTotal, totalPessoas);
+
+                lblPessoas.Text = totalPessoas.ToString();
+                lblValorTotal.Text = valorTotal.ToString("0.00");
+                lblValorIndividual.Text = valorIndividual.ToString("0.00");
 			};
 		}
 
