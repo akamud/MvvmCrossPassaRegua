@@ -71,5 +71,11 @@
   <ItemGroup>
     <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MvvmCrossPassaRegua\MvvmCrossPassaRegua.csproj">
+      <Project>{D3F9D453-2333-4151-9801-ED24E3F8802E}</Project>
+      <Name>MvvmCrossPassaRegua</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
