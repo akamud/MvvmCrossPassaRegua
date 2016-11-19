@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>615bc52c-f392-4cc7-847c-77303d6b6563</ProjectGuid>
+    <ProjectGuid>{615BC52C-F392-4CC7-847C-77303D6B6563}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>MvvmCrossPassaRegua.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
@@ -61,6 +61,34 @@
     <MtouchDebug>true</MtouchDebug>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MvvmCross.Binding, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Binding.4.3.0\lib\Xamarin.iOS10\MvvmCross.Binding.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Binding.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Binding.4.3.0\lib\Xamarin.iOS10\MvvmCross.Binding.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Core, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Core.4.3.0\lib\Xamarin.iOS10\MvvmCross.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Core.4.3.0\lib\Xamarin.iOS10\MvvmCross.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Localization, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Binding.4.3.0\lib\Xamarin.iOS10\MvvmCross.Localization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Platform, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Platform.4.3.0\lib\Xamarin.iOS10\MvvmCross.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Platform.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Platform.4.3.0\lib\Xamarin.iOS10\MvvmCross.Platform.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -136,14 +164,21 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DebugTrace.cs" />
+    <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Setup.cs" />
     <Compile Include="ViewController.cs" />
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppDelegate.cs.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
